@@ -1,0 +1,22 @@
+{
+  "name": "javascript-2022t4",
+  "version": "1.0.0",
+  "description": "Primer proyecto",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OrlandoMatos/JAVASCRIPT-2022T4.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OrlandoMatos/JAVASCRIPT-2022T4/issues"
+  },
+  "homepage": "https://github.com/OrlandoMatos/JAVASCRIPT-2022T4#readme",
+  "dependencies": {
+    "prompt": "^1.3.0"
+  }
+}
