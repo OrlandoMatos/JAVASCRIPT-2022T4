@@ -1,5 +1,14 @@
-let numero1 = prompt('Escribe el numero 1');
-let numero2 = prompt('Escribe el numero 2');
+var prompt =require('prompt');
 
-let resultado = parseInt(numero1) + parseInt(numero2);
-console.log(resultado);
+prompt.start();
+
+prompt.get(['numero1', 'numero2'], function(arr, resultado){
+    let numero1 = resultado.numero1;
+    let numero2 = resultado.numero2;
+    let suma = parseInt(numero1) + parseInt(numero2);
+       
+    console.log('La suma es '+suma);
+
+
+});
+
