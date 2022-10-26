@@ -12,7 +12,6 @@ prompt.get(['numero'], function(error, resultado){
             primo=false;
         }
        
-        
     };
 
     if(primo==true){
@@ -29,3 +28,7 @@ prompt.get(['numero'], function(error, resultado){
     
 
     // console.log('resultado '+mismonumero);
+
+
+
+    
