@@ -1,0 +1,121 @@
+body{
+    margin: auto;
+    max-width: 80%;
+       
+}
+
+.imagenPrincipal{
+   display: flex;
+   justify-content: center;
+   margin-top:10px ;
+}
+
+.imagenPrincipal img{
+    box-shadow: 3px 5px 5px rgb(124, 124, 124);
+}
+.encabezado{
+    background-color: rgb(224, 225, 228);
+    height: 50px;
+    border-radius:5px;
+    box-shadow: 0px 5px rgb(190, 190, 192);
+
+}
+
+.encabezado:hover{
+    box-shadow: 0px 5px rgb(116, 116, 117);
+}
+
+.encabezado h1{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.cuerpodepagina{
+    color: rgb(137, 137, 141);
+    height: 250px;
+    border: 1px solid rgb(122, 122, 122);
+    border-radius: 5px;
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 70% 30%;
+    grid-gap: 5px;
+}
+
+.parrafo{
+    grid-row: 1/2;
+    /* background-color: antiquewhite; */
+    padding: 10px;
+}
+
+.asidederecho{
+    grid-row: 2/3;
+    /* background-color: aqua; */
+    padding: 10px;
+    
+}
+
+.asidederecho1{
+    /* background-color: aquamarine; */
+    grid-row: 1/3;
+    padding: 10px;
+    border-left:1px solid black ;
+   
+    
+    
+}
+
+
+
+
+.primerh2{
+    background-color: rgb(224, 225, 228);
+    height: 50px;
+    border-radius:5px;
+    box-shadow: 0px 5px rgb(190, 190, 192);
+}
+.primerh2:hover{
+    box-shadow: 0px 5px rgb(116, 116, 117);
+}
+.caracteristica{
+    display: flex;
+    justify-content: center;
+} 
+
+footer{
+    background-color: black;
+    height: 80px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    
+}
+
+.listaul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.listaul li{
+    width: 100px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+    
+}
+
+.listaul li:hover{
+    /* text-decoration: underline; */
+    border: 1px solid black;
+}
+footer p{
+    color: white;
+    
+}
+
+
+
