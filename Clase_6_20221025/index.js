@@ -7,13 +7,18 @@ app.get('/', function (req, res) {
     
 })
 
-app.get('/style.css', function(req, res){
-    res.sendFile(__dirname + '/style.css');
-})
+app.use(express.static('assets/css'));
+app.use(express.static('assets/img'))
 
-app.get('/html.jpg', function(req, res){
-    res.sendFile(__dirname + '/img/html.jpg')
-})
+// app.get('/style.css', function(req, res){
+//     res.sendFile(__dirname + '/assets/css/style.css');
+// })
+
+// app.get('/html.jpg', function(req, res){
+//     res.sendFile(__dirname + '/assets/img/html.jpg')
+// })
+
+
 
 
 app.listen(3000);

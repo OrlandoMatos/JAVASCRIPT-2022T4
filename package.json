@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/OrlandoMatos/JAVASCRIPT-2022T4#readme",
   "dependencies": {
+    "express": "^4.18.2",
     "prompt": "^1.3.0",
     "promt": "^0.0.0"
   }
