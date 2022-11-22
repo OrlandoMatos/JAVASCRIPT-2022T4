@@ -1,0 +1,190 @@
+body{
+
+}
+
+#aside-principal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#cuerpo{
+    height: 900px;
+    width: 750px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border:solid 1px black;
+    /* background-color: rgb(206, 203, 206); */
+    box-shadow: 2px 5px 8px;
+    border-radius:10px ;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+
+    
+}
+
+/* seccion de la izquierda*/
+
+#section-left{
+    background-color: rgb(121, 119, 119);
+    width: 300px;
+    height: 850px;
+    box-shadow: -3px 3px 10px;
+    border-radius:10px ;
+    
+}
+
+#img-phoro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    margin-top: 30px;
+}
+
+#img-phoro>img{
+    width: 150px;
+    height: 140px;
+    border-radius: 50%;
+}
+
+#section-left h3{
+   margin-left: 20px;
+   color: rgb(213, 208, 224);
+
+}
+
+h3{
+    position: relative;
+}
+
+h3::before{
+    content: '';
+    width: 50px;
+    height: 5px;
+    background-color: rgb(63, 62, 62);
+    display: block;
+    position: absolute;
+    bottom: -8px;
+
+}
+
+#fotoDescripcion >p{
+    margin-left: 20px;
+    width: 250px;
+    color: rgb(213, 208, 224);
+}
+
+#div-direccion{
+    display: flex;
+}
+
+#div-direccion > img{
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right:15px ;
+
+}
+#div-direccion > p{
+    width: 250px;
+    color: rgb(213, 208, 224);
+}
+
+#div-correo{
+    display: flex;
+    color: rgb(213, 208, 224);
+}
+
+#div-correo> img{
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right:15px ;
+
+}
+
+#div-telefono{
+    display: flex;
+    color:rgb(213, 208, 224);
+}
+
+#div-telefono > img{
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right:15px ;
+
+}
+
+
+/* seccion de la derecha. */
+
+#section-right{
+    background-color: rgb(213, 208, 224);
+    width: 400px;
+    height: 850px; 
+    box-shadow: 3px 3px 10px;
+    border-radius:10px ;
+}
+
+#nombre{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+#pn{
+    margin-bottom: 0;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+#pd{
+    margin-top: 0;
+}
+
+#habilidades{
+    
+}
+
+#habilidades >h3{
+    text-transform: uppercase;
+    margin-left: 15px;
+}
+
+#experiencia-Laborales >h3{
+    text-transform: uppercase;
+    margin-left: 15px;
+}
+
+#experiencia-Laborales >p{
+    margin-left: 25px;
+
+}
+
+#pa{
+    margin-bottom: 0;
+}
+#pf{
+    margin-top: 0;
+}
+
+#educacion >h3{
+    text-transform: uppercase;
+    margin-left: 15px;
+    
+}
+
+#experiencia-Laborales{
+    width: 95%;
+}
+
