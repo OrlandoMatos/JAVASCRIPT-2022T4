@@ -1,0 +1,104 @@
+body{
+    margin: auto;
+    padding: 0px;   
+    max-width: 90%;
+    border: solid 2px rgb(112, 112, 112);
+
+}
+
+#header{
+    background-color: antiquewhite;
+    
+}
+
+#nav-enlaces{
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;   
+    align-content: center;
+    
+}
+
+#nav-enlaces >a{
+    text-decoration: none;
+    color: black;
+    padding: 7px;
+    font-size: 35px;
+}
+
+#nav-enlaces >a:hover{
+   
+    text-decoration: underline;
+
+}
+
+
+/* Este es el diseño del cuerpo de la pagina */
+
+#general{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    margin-top: 5px;
+}
+
+#section-derecho{
+    background-color: rgb(236, 169, 231);
+    height: 492px;
+    flex-grow: 5;    
+    padding-left: 5px;
+    margin-left: 5px;
+    border-radius: 5px;
+    border:solid 2px black ;
+    
+
+}
+
+#article-izquierdo{
+    
+    display: flex;
+    flex-direction: column;
+    flex-grow: 3;
+    margin-left: 5px;
+    margin-bottom: 3px;
+    
+}
+
+#section-izquierdo1{
+    background-color: rgb(241, 117, 117);
+    width: 99%;
+    height: 49%;   
+    border: solid 2px black;
+    border-radius:5px;
+}
+
+#section-izquierdo2{
+    background-color: rgb(169, 236, 202);
+    margin-top: 1%;
+    width: 99%;
+    height: 49%;
+    border: solid 2px black;
+    border-radius:5px;
+}
+
+/* diseño del footer */
+#footer{
+
+    margin: auto;
+    background-color: black;
+    width: 99.5%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    
+}
+
+#footer > p{
+    color: aliceblue;
+}
+
+
+
